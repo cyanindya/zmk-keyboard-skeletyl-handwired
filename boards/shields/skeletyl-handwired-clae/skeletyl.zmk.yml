@@ -1,0 +1,12 @@
+file_format: "1"
+id: skeletyl-handwired-clae
+name: Clae's Handwired Skeletyl
+type: shield
+url: https://github.com/cyanindya/zmk-keyboard-skeletyl-handwired
+requires: [pro_micro]
+exposes: [i2c_oled]
+features:
+  - keys
+siblings:
+  - skeletyl_left
+  - skeletyl_right
